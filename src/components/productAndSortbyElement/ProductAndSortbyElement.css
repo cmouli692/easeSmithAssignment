@@ -1,0 +1,122 @@
+.view-product-btn{
+    background-color: #165315;
+    color: #ffffff;
+    padding: 2px;
+    width: 100%;
+    border-style: none;
+    margin:0px;
+}
+
+.product-image{
+    height: 250px;
+    width: 140px;
+}
+
+.product-container{
+     border-width: 0px, 0px, 0px, 0px;
+
+    border-style: solid;
+    
+    border-color: #0000004D;
+
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-between;
+}
+
+.product-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-container{
+    /* width: 200px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+
+.heart-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination-container{
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .star-img-rating-text-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .stars-img{
+    height: 12px;
+  }
+
+  .add-to-cart-and-buy-rent-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  .add-to-button{
+    background-color: transparent;
+    border-style: none;
+    color: #ffffff;
+  }
+
+  .add-to-cart-btns-container{
+    background: #165315;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 15px;
+  }
+
+  .add-to-cart-text{
+    font-size: 10px;
+  }
+
+  .add-to-cart-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+  }
+
+  .buy-on-rent-btn{
+    border-radius: 15px;
+    color: #165315;
+    background-color: transparent;
+    border-color: #165315;
+  }

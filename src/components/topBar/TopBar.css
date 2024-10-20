@@ -1,0 +1,16 @@
+.top-bar-text{
+    font-size: 15px;
+    font-style: "Roboto";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#165315;
+    color: #ffffff;
+    height: 25px;
+    align-items: center;
+}

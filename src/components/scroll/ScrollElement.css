@@ -1,0 +1,31 @@
+.scroll-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.scroll-element{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scroll-elements-text{
+    text-align: center;
+}
+
+
+.scroll-container{
+    display: flex;
+    flex-direction: row;
+    
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.scroll-container::-webkit-scrollbar{
+    height: 0px;
+}

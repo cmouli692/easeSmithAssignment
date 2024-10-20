@@ -1,0 +1,14 @@
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
